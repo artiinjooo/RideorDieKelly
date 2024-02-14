@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day</title>
+    <style>
+        body {
+            margin: 0;
+            background: url('background-image.jpg') no-repeat center center fixed; /* Replace 'background-image.jpg' with your actual image */
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff; /* White text for better contrast on the background */
+        }
+        #content {
+            text-align: center;
+            display: none; /* Initially hide content */
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better visibility on images */
+        }
+        #yesButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #ff4d4d; /* Red button color */
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        #yesButton:hover {
+            background-color: #e60000; /* Darker red on hover */
+        }
+    </style>
+</head>
+<body>
+
+<div id="content">
+    <h1>Would you be my Valentine and ride or die?</h1>
+    <button id="yesButton" onclick="showThanks()">Yes</button>
+    <p id="th
